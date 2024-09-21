@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    resize: none;
+    height: 100px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.output-container {
+    margin-top: 20px;
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.output-box {
+    overflow-y: auto;
+    height: 100%;
+    text-align: justify;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding-right: 10px;
+}
+
+.copy-btn {
+    background-color: #28a745;
+}
+
+.copy-btn:hover {
+    background-color: #218838;
+}
+
+.creater {
+    margin: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    textarea, button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    textarea, button {
+        font-size: 14px;
+    }
+}
